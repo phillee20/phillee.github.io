@@ -94,11 +94,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #077f3b;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #248761 15%, #32c18a 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #248761 15%, #187540  85%);
+		background-color: #59b581;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #248761 15%, #1a9951dc 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #248761 15%, #1a9951dc  85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #248761 15%, #4abb90  85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #248761 15%, #187540  85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #248761 15%, #519d72  85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2215,7 +2215,7 @@ input, select, textarea {
 	display: inline-block;
 	margin: 10px;
 	cursor: pointer;
-	transition: visibility 0s, opacity 0.5s ease-in-out
+	transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
 .img-text {
@@ -2360,7 +2360,7 @@ input, select, textarea {
 
 			.icon.major {
 				margin: 0 0 1.5em 0;
-				padding: 0.35em;
+				padding: 0.em;
 			}
 
 				.icon.major:before {
@@ -2440,10 +2440,23 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.main img {
+		.image.main img {
 				width: 100%;
 			}
 
+	/* Groove Game Page Flow */
+	.grooveGameGrid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
+	  }
+	  
+	  .grooveGameGrid img {
+		max-width: 100%;
+		height: auto;
+	  }
+	  
+			  
 /* List */
 
 	ol {
