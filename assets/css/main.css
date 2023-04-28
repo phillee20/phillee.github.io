@@ -2474,14 +2474,14 @@ input, select, textarea {
 	  
 	  @media screen and (max-width: 767px) {
 		.grooveGameGrid {
-		  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+		  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
 		  grid-gap: 5px;
 		}
 	  }
 	  
 	  @media screen and (max-width: 479px) {
 		.grooveGameGrid {
-		  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+		  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
 		  grid-gap: 2px;
 		}
 	  }
