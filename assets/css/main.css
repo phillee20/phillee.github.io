@@ -2450,7 +2450,7 @@ input, select, textarea {
 			}
 
 	/* Groove Game Page Flow */
-	.grooveGameGrid {
+	/* .grooveGameGrid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-gap: 10px;
@@ -2459,7 +2459,36 @@ input, select, textarea {
 	  .grooveGameGrid img {
 		max-width: 100%;
 		height: auto;
+	  } */
+
+	  .grooveGameGrid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		grid-gap: 10px;
 	  }
+	  
+	  .grooveGameGrid img {
+		max-width: 100%;
+		height: auto;
+	  }
+	  
+	  @media screen and (max-width: 767px) {
+		.grooveGameGrid {
+		  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+		  grid-gap: 5px;
+		}
+	  }
+	  
+	  @media screen and (max-width: 479px) {
+		.grooveGameGrid {
+		  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+		  grid-gap: 2px;
+		}
+	  }
+	  
+	  
+
+	  
 	  
 			  
 /* List */
