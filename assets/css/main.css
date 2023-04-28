@@ -3733,6 +3733,7 @@ input, select, textarea {
         /* Home Page Learn More buttons */
 		@media (max-width: 768px) {
 			.button {
+			padding: 1rem;
 			text-align: center;
 			display: flex;
 			justify-content: center;
