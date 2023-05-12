@@ -2492,9 +2492,13 @@ input, select, textarea {
 		  height: 600px;
 		  margin: 0 auto; 
 		  display: block;
-		}
+		  object-fit: cover;
+		}  
 	  }
+	
 	  
+
+
 	  
 	  
 	  
