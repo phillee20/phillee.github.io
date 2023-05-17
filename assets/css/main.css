@@ -2496,6 +2496,18 @@ input, select, textarea {
 		}  
 	  }
 	
+	  @media screen and (max-width: 100px) {
+		.airbeebeeVideo {
+		  width: 100%;
+		  height: auto;
+		  margin: 0;
+		  display: block;
+		  object-fit: contain;
+		}
+	  }
+	  
+	 
+
 	  
 
 
