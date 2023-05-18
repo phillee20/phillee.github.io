@@ -3804,6 +3804,22 @@ input, select, textarea {
 	     height: auto;
 	}
   }
+        /* TV Maze grid */
+        @media only screen and (max-width: 600px) {
+	    .TVMazeGrid img {
+	    width: 100%;
+	    height: auto;
+}
+}
+
+      /* AirBeeBee grid */
+	  @media only screen and (max-width: 600px) {
+	    .AirBeeBeeGrid img {
+	    width: 100%;
+	    height: auto;
+		}
+
+}
   
 
 /* Footer */
