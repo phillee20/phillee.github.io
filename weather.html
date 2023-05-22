@@ -26,19 +26,29 @@
 						<!-- Content -->
 							<section id="content" class="main">
 
-								<h2><b>Weather - WORK IN PROGRESS!</b></h2>
+								<h2><b>Open Weather</b></h2>
 								
-								<p>This project is created using Angular and Open Weather API.git
-<br>
-								<a href="WORK IN PROGRESS">Link to the Github Repository here</a>
+								<p>This project is created using Angular, an open source JavaScript framework along with Open Weather API from rapidAPI. The Open Weather API is free, hence it only permits 50 requests per month, therefore you may not be able to see the site once requests are filled. The project is deployed on Netlify which I have on the link below.
+                                <br>
+                                <p>The temperature, minimum temp, maximum temp, humidity and wind speed are pulled in from the response data. To get the response data, I had to get the response from rapidAPI (test endpoint) then copy the result into JSON formatter and finally convert to TypeScript which resulted in the weather.model.ts file showing the required response I need for the front end. </p>
+								<br>
+                                 <a href="https://phil-openweather.netlify.app/">Link to the deployed weather site here</a> <br>
+								<a href="https://github.com/phillee20/WeatherApp">Link to the github repository here</a>
+                                <br>
+								<br>
+								<b>*Note - I will be revisiting this project on June 22nd which is when the API requests should reset*</b>
 								</p>
 
-								<h3><b>Weather Application</b></h3>
+								<h3><b>Weather</b></h3>
 								<ul class="weatherApp">
 								
 									<div class="TVMazeGrid">
-									  <img src="./images/TVMaze/HomeScreen.png" alt="Articles" width="600" height="200">
-									  <img src="./images/TVMaze/ShowsList.png" alt="HomePage" width="400" height="250">
+										<h3>Weather Main</h3>
+										<img src="./images/WeatherScreenshots/cover.png" alt="HomePage" width="400" height="400">
+										<h3>Open Weather API</h3>
+									    <img src="./images/WeatherScreenshots/API.png" alt="API" width="800" height="400">
+										<h3>Weather Model</h3>
+										<img src="./images/WeatherScreenshots/model.png" alt="Model" width="550" height="500">
 									</div>
 								</ul>
 
@@ -49,6 +59,12 @@
 										  <img src="./icons/icons8-angular.svg" alt="Angular" style="width:110px;height:72px;">
 										  <span class="img-text">Angular</span>
 									  </div>
+										</li>
+										<li>
+											<div class="img-container">
+											<img src="./icons/typescript-icon.svg" alt="TypeScript" style="width:72px;height:72px;">
+											<span class="img-text">TypeScript</span>
+										</div>
 										</li>
 										<li>
 										  <div class="img-container">
@@ -62,11 +78,7 @@
 											<span class="img-text">VS Code</span>
 										</div>
 										  </li>
-										  <li>
-											<div class="img-container">
-											<img src="./icons/typescript-icon.svg" alt="TypeScript" style="width:72px;height:72px;">
-											<span class="img-text">TypeScript</span>
-										</div>
+										 
 							</section>
 					</div>
 
